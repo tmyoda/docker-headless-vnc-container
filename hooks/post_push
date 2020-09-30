@@ -1,0 +1,5 @@
+#! /bin/bash
+
+# ref: https://qiita.com/himox_x/items/f4c6c86d41173bf453fe
+docker tag $IMAGE_NAME $DOCKER_REPO:latest
+docker push $DOCKER_REPO:latest
